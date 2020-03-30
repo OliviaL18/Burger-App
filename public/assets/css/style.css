@@ -6,12 +6,18 @@ body {
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2 {
+h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
 }
 
 table {
@@ -26,5 +32,13 @@ table {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.menu {
+  background-color: #cef0f2
+}
+
+.add {
+  background-color: pink;
 }
 

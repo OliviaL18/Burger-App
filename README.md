@@ -18,11 +18,6 @@ MySQL is the database management system that houses the  data.
 
 The application is deployed to Heroku and can be accessed at the above link.
 
-## Preview
-
-See below for a preview of what the application looks like:
-
-
 
 ## Contact 
 

@@ -1,6 +1,6 @@
 # Burger-App
 
-DESCRIPTION OF THE APP
+This is an app for a burger restaurant that displayed the burgers currently on the menu and allows the user to add a new type of burger. Once added to the menu, the burger can be devoured. It will then move to a new portion of the app where the user can track which burgers have been devoured. All burgers are stored, along with whether or not they have been devoured.
 
 LINK TO THE DEPLOYED APP
 

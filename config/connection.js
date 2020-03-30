@@ -1,3 +1,4 @@
+//Connect to MySQL
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({
@@ -16,4 +17,6 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
+//Export the MySQL connection
+//Will be used by the ORM
 module.exports = connection;

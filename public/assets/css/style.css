@@ -16,18 +16,15 @@ h1, h2 {
 
 table {
   margin: auto;
+  outline-style: outset;
+  outline-color:grey;
 }
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-}
-
 .form-group {
   margin-bottom: 5px;
 }
+

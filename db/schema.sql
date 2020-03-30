@@ -1,4 +1,5 @@
 CREATE DATABASE Burgerdb;
+
 USE Burgerdb;
 
 CREATE TABLE burgers

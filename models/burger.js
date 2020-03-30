@@ -1,3 +1,5 @@
+//Import ORM from the config folder
+//This will create functions to interact with the SQL database
 const orm = require("../config/orm.js");
 
 const burger = {
@@ -24,4 +26,6 @@ const burger = {
 
 };
 
+// Export these database functions
+//They will be used for controller.js
 module.exports = burger;

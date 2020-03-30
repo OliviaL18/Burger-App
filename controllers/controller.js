@@ -5,12 +5,12 @@ const router = express.Router();
 //This allows us to use the database functions.
 const burger = require("../models/burger.js");
 
+//Creating the routes
 router.get("/", function(req, res) {
   burger.all(function(data) {
     const hbsObject = {
       burgers: data
     };
-    console.log(hbsObject);
     res.render("index", hbsObject);
   });
 });
@@ -23,9 +23,6 @@ router.post("/api/burgers", function(req, res) {
 
 router.put("/api/burgers/:id", function(req, res) {
   const condition = "id = " + req.params.id;
-
-  console.log("condition", condition);
-
   burger.update({
     eaten: req.body.eaten
   }, condition, function(result) {
@@ -39,7 +36,6 @@ router.put("/api/burgers/:id", function(req, res) {
 
 router.delete("/api/burgers/:id", function(req, res) {
   const condition = "id = " + req.params.id;
-
   burger.delete(condition, function(result) {
     if (result.affectedRows == 0) {
       return res.status(404).end();

@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+// Import the burger.js from the models folder
+//This allows us to use the database functions.
 const burger = require("../models/burger.js");
 
 router.get("/", function(req, res) {
@@ -47,5 +49,7 @@ router.delete("/api/burgers/:id", function(req, res) {
   });
 });
 
+// Exporting routes
+//They will be used by server.js
 module.exports = router;
 

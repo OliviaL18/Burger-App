@@ -9,6 +9,10 @@ li {
   background: #faebd7;
 }
 
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .label {
   font-weight: bold;
 }

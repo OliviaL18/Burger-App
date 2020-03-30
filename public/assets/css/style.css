@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  background-image: url("./food.png");
+}
+
 li {
   padding: 5px;
   margin: 5px;
